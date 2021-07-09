@@ -8,17 +8,22 @@
     <title>Clares Van</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md px-3 py-0 fixed-top" id="mainNavBar">
+    <nav class="navbar navbar-dark navbar-expand-md px-4 py-0 fixed-top" id="mainNavBar">
         <a id="nav-logo" class="navbar-brand" href="#">CLARES VAN</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
             aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,25 +35,131 @@
                     <a href="" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">QUOTE</a>
+                    <a href="" class="nav-link">FAQS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">MOVING TIPS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">REVIEWS</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="background-img">
+    <section id="homePage" class="background-img">
         <div class="position-absolute top-50 start-50 translate-middle text-center">
             <h1>CLARES<span>/</span>VAN</h1>
-            <h2 class="mb-3"> <span>(</span>WO<span>)</span>man and Van Removals</h2>
+            <h2 class="mb-3"> <span>(</span>WO<span>)</span>MAN AND VAN REMOVALS</h2>
             <div class="d-grid gap-2 col-8 mx-auto">
-                <button class="btn btn-lg btn-outline-light">Get a quote now</button>
+                <button class="btn btn-lg btn-outline-light">REQUEST A QUOTE</button>
             </div>
         </div>
     </section>
 
-    <footer>
 
+
+    <section class="about-body">
+        <div class="py-5 d-none d-lg-block"></div>
+
+        <section id="about" class="blurb container-fluid px-0 py-5">
+            <div class="row align-items-center">
+                <!-- <div class="col-md-3"></div> -->
+                <div class="col-md-4 order-2 order-md-1">
+                    <img src="imgs/van_autumn.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 text-left order-1 order-md-2 mb-5 mb-md-0 what-we-do">
+                    <div id="textInfo" class="row justify-content-center">
+                        <div class="col-10">
+                            <h2>what we do<span>...</span></h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum
+                                exercitationem obcaecati, eaque impedit harum sint eius voluptatibus nobis.
+                                Reprehenderit at quaerat sed recusandae tenetur, temporibus dicta voluptates
+                                eligendi,
+                                magni labore error neque dignissimos voluptatum natus vel culpa velit beatae
+                                delectus
+                                rem fugit eos possimus, odit provident! Reiciendis asperiores corporis officia magni
+                                eos
+                                magnam minus excepturi beatae, nostrum voluptatibus! Ab recusandae aspernatur
+                                voluptate
+                                itaque dignissimos dolore doloremque provident eligendi, nulla perferendis rem
+                                nobis?
+                                Vel magnam eos ipsa porro! Dignissimos, eos?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="py-5 d-none d-lg-block"></div>
+        </section>
+    </section>
+    <section class="why-choose container-fluid px-0 pb-5">
+        <div class="row align-items-center">
+            <div class="col-md-2 d-none d-lg-block"></div>
+            <div class="col-md-4 text-left mb-5 mb-md-0">
+                <div id="textInfo" class="row justify-content-center">
+                    <div class="col-10 col-md-12">
+                        <h2>Why choose us<span>...</span></h2>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fas fa-truck-moving fa-2x"></i>
+                            </div>
+                            <div class="col-9">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempora nisi minus
+                                    doloribus saepe, fugit est optio quos fugiat ducimus error ratione esse, odio modi
+                                    rem,
+                                    pariatur corrupti. Aliquid, quo?</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fas fa-truck-loading fa-2x"></i>
+                            </div>
+                            <div class="col-9">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempora nisi minus
+                                    doloribus saepe, fugit est optio quos fugiat ducimus error ratione esse, odio modi
+                                    rem,
+                                    pariatur corrupti. Aliquid, quo?</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <i class="fas fa-tape fa-2x"></i>
+                            </div>
+                            <div class="col-9">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempora nisi minus
+                                    doloribus saepe, fugit est optio quos fugiat ducimus error ratione esse, odio modi
+                                    rem,
+                                    pariatur corrupti. Aliquid, quo?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-8 mx-auto">
+                    <button class="btn btn-lg btn-outline-dark mt-5">REQUEST A QUOTE</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="imgs/van_gallery.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-2 d-none d-lg-block"></div>
+    </section>
+
+
+    <footer>
+        <p><i class="far fa-copyright"></i> CLARES<span>/</span>VAN</p>
     </footer>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                const $nav = $("#mainNavBar");
+                const $home = $("#homePage");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height() * 2);
+            })
+        })
+    </script>
 
 </body>
 
