@@ -36,13 +36,13 @@
                     <a href="" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">FAQS</a>
-                </li>
-                <li class="nav-item">
                     <a href="" class="nav-link">MOVING TIPS</a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="nav-link">REVIEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">QUOTE</a>
                 </li>
             </ul>
         </div>
@@ -53,7 +53,7 @@
             <h1>CLARES<span>/</span>VAN</h1>
             <h2 class="mb-3"> <span>(</span>WO<span>)</span>MAN AND VAN REMOVALS</h2>
             <div class="d-grid gap-2 col-8 mx-auto">
-                <button class="btn btn-lg btn-outline-light">REQUEST A QUOTE</button>
+                <button class="btn btn-lg btn-outline-light mt-3">REQUEST A QUOTE</button>
             </div>
         </div>
     </section>
@@ -63,9 +63,8 @@
     <section class="about-body">
         <div class="py-5 d-none d-lg-block"></div>
 
-        <section id="about" class="blurb container-fluid px-0 py-5">
+        <div id="about" class="blurb container-fluid px-0 py-5">
             <div class="row align-items-center">
-                <!-- <div class="col-md-3"></div> -->
                 <div class="col-md-4 order-2 order-md-1">
                     <img src="imgs/van_autumn.jpg" alt="" class="img-fluid">
                 </div>
@@ -73,7 +72,7 @@
                     <div id="textInfo" class="row justify-content-center">
                         <div class="col-10">
                             <h2>what we do<span>...</span></h2>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum
+                            <p class="about-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum
                                 exercitationem obcaecati, eaque impedit harum sint eius voluptatibus nobis.
                                 Reprehenderit at quaerat sed recusandae tenetur, temporibus dicta voluptates
                                 eligendi,
@@ -89,15 +88,16 @@
                         </div>
                     </div>
                     <div class="d-grid gap-2 col-8 mx-auto">
-                        <button class="btn btn-lg btn-outline-light mt-5">MORE ABOUT US</button>
+                        <button class="btn btn-lg btn-outline-light mt-5">ABOUT US</button>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
             </div>
             <div class="py-5 d-none d-lg-block"></div>
-        </section>
+        </div>
     </section>
-    <section class="why-choose container-fluid px-0 pb-5">
+
+    <section class="why-choose container-fluid px-0 py-5">
         <div class="row align-items-center">
             <div class="col-md-2 d-none d-lg-block"></div>
             <div class="col-md-4 text-left mb-5 mb-md-0">
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div class="d-grid gap-2 col-8 mx-auto">
-                    <button class="btn btn-lg btn-outline-dark mt-5">READ OUR FAQS</button>
+                    <button class="btn btn-lg btn-outline-dark mt-5">MOVING TIPS</button>
                 </div>
             </div>
             <div class="col-md-4">
@@ -150,9 +150,118 @@
         <div class="col-md-2 d-none d-lg-block"></div>
     </section>
 
+    <section class="review-section py-5 my-5">
+        <div id="carouselExampleIndicators" class="review-body carousel slide text-center" data-bs-ride="carousel">
+            <h2 class="p-3 my-5">WHAT OUR CUSTOMERS SAY ABOUT US<span>...</span></h2>
+            <h2 class="py-3 text-muted col-8"><i class="fas fa-quote-right"></i></h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div id="reviews" class="reviews carousel-inner w-50 mb-2 pb-5 mx-auto">
+                <div class="carousel-item active">
+                    <div class="d-lg-block w-100">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam mollitia dolor autem
+                            obcaecati deleniti. At illum, iusto error quasi temporibus dolor quas corporis modi.
+                            Repellendus facere minus dicta iusto rem?</p>
+                        <h4 class="text-muted">mickey mouse</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-block w-100">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur itaque ea consequuntur
+                            ullam
+                            tempora aut voluptatibus quidem iusto labore nulla.</p>
+                        <h4 class="text-muted">captain crunch<h4>
 
-    <footer class="mt-5">
-        <p><i class="far fa-copyright"></i> CLARES<span>/</span>VAN</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-block w-100">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore at autem magni,
+                            doloribus, neque sapiente qui numquam maiores tempore modi fuga ea quos magnam.</p>
+                        <h4 class="text-muted">el presidente</h4>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-md-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="review-btn d-grid gap-2 col-8 col-md-3 mx-auto pb-5">
+            <button class="btn btn-lg btn-outline-light mt-5">REVIEWS</button>
+        </div>
+    </section>
+
+    <section class="final-section text-cente">
+        <div class="py-5 d-none d-lg-block"></div>
+
+        <div id="about" class="container-fluid px-0 py-5">
+            <div class="row align-items-center">
+                <div class="col-md-4 order-2 order-md-1">
+                    <img src="imgs/van_graff2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 text-left order-1 order-md-2 mb-5 mb-md-0 what-we-do">
+                    <div id="textInfo" class="row justify-content-center">
+                        <div class="col-10">
+                            <h2>WHY WAIT<span>...?</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ut nisi totam culpa
+                                repudiandae perferendis animi magnam sint vitae aliquam!</p>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 col-8 mx-auto">
+                        <button class="btn btn-lg btn-outline-dark mt-5">REQUEST A QUOTE</button>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="py-5 d-none d-lg-block"></div>
+        </div>
+    </section>
+
+
+    <footer class="row">
+        <div class="col-4 px-4 d-inline">
+            <p><i class="far fa-copyright"></i> CLARES<span>/</span>VAN</p>
+        </div>
+        <div class="col-4">
+            <ul id="footer-link" class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="" class="d-inline text-muted">FAQS</a></li>
+                <li class="nav-item"><a href="" class="d-inline text-muted">PARTNERS</a></li>
+                <li class="nav-item"><a href="" class="d-inline text-muted">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div id="footer-icon" class="col-4">
+            <ul class="navbar-nav ms-auto">
+                <li><a href="" class="d-inline text-muted"><i class="fab fa-facebook-square"></i> facebook</a></li>
+                <li><a href="" class="d-inline text-muted"><i class="fab fa-instagram-square"></i> instagram</a></li>
+            </ul>
+        </div>
+        <!-- <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">MOVING TIPS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">REVIEWS</a>
+                </li>
+            </ul>
+        </div> -->
     </footer>
 
     <script>
